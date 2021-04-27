@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        /* box-sizing: border-box; */
+      }
+      body{
+        background-color: #f4f4f4;
+      }
+      .container {
+        display: flex;
+        background: #ff004c;
+        justify-content: space-between;
+        height: 55px;
+        align-items: center;
+      }
+      .left {
+        display: flex;
+        width: 50%;
+      }
+      .left span {
+        padding: 0px 10px;
+        font-size: 25px;
+        color: #fff;
+        cursor: pointer;
+      }
+      .right {
+        padding-right: 20px;
+        outline: none;
+        width: 50%;
+      }
+      .right input {
+        font-size: 15px;
+        border: 2px solid #ff6291;
+        border-radius: 5px;
+      }
+      .left span:hover {
+        background-color: #ff3571;
+        border: 1px solid #ff3571;
+
+      }
+      .showcase {
+        background-image: url(../18april/img/showcase.jpeg);
+        width: 70%;
+        height: 500px;
+        align-items: center;
+        text-align: center;
+        padding-top: 200px;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: 25px;
+        color: #fff;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .bg {
+        display: flex;
+      }
+      .sidebar {
+        width: 30%;
+        height: auto;
+        background-color: #ff3571;
+        text-transform: uppercase;
+        color: #fff;
+        align-items: center;
+        text-align: center;
+        padding-top: 200px;
+        font-size: 40px;
+      }
+      footer{
+        width: 100%;
+        height: 40px;
+        background-color: #ff6291;
+        align-items: center;
+        text-align: center;
+        padding-top: 9px;
+        color: #f4f4f4;
+      }
+      @media (max-width: 768px)
+      {
+        .left span{
+          font-size: 20px;
+        }
+      }
+      @media (max-width: 588px)
+      {
+        .left span{
+          font-size: 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <span class="items">Home</span>
+        <span class="items">About us</span>
+        <span class="items">Products</span>
+        <span class="items">Contact us</span>
+      </div>
+      <div class="right">
+        <input type="text" id="search" placeholder="what u want" />
+      </div>
+    </div>
+    <div class="bg">
+      <div class="showcase">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae animi
+          quam architecto laborum recusandae ab rerum optio, numquam aliquam,
+          soluta doloribus nam enim odio reprehenderit dolor repellendus
+          voluptate, eligendi amet?
+        </p>
+      </div>
+      <div class="sidebar">
+        <h3>this is side bar</h3>
+      </div>
+    </div>
+    <footer>
+      <h3> &copy;Copyright Muhammad Usama Apr 2021 </h3>
+    </footer>
+    <!-- <div style="margin-bottom: 500px"></div> -->
+  </body>
+</html>

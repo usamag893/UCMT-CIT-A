@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>em rem</title>
+    <style>
+      html {
+        font-size: 5px;
+      }
+      .container {
+        font-size: 10px;
+      }
+      #first {
+        /* em sets it width and height according to its parent size but adjust its padding and margin according to its size */
+        font-size: 2em;
+      }
+      #second {
+        /* rem set its width according to html deault size */
+        font-size: 2rem;
+      }
+      #third {
+        /* vw set its size accordint to viewport */
+        font-size: 20vw;
+        font-size: 20vh;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="first">First header on the page</div>
+      <div id="second">Second header on the page</div>
+      <div id="third">Third header on the page</div>
+    </div>
+  </body>
+</html>

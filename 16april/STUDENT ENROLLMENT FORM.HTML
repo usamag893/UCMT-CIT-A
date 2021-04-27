@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>student Enrollment Form</title>
+  </head>
+  <body>
+    <center>
+      <form action="backend.php">
+        <br /><br />
+        <h1>Student Enrollment</h1>
+        <br />
+        <div>
+          <label for="Student name">Student Name</label><br />
+          <input
+            type="text"
+            id="Student Name"
+            placeholder="enter student name here"
+          />
+        </div>
+        <br />
+        <div>
+          <label for="Father Name">Father Name</label><br />
+          <input
+            type="text"
+            id="Father Name"
+            placeholder="enter Father name here"
+          />
+        </div>
+        <br />
+        <div>
+          <label for="address">Address</label><br />
+          <textarea
+            name="Address"
+            id="Address"
+            cols="26"
+            rows="4"
+            placeholder="enter your Address here"
+          ></textarea>
+        </div>
+        <br />
+        <div>
+          <label for="Age">Age</label><br />
+          <input
+            type="number"
+            id="Age"
+            placeholder="22"
+            title="enter your age here"
+          />
+        </div>
+        <br />
+        <div>
+          <label for="contact NO.">Contact No.</label><br />
+          <input
+            type="text"
+            id="Contact No."
+            placeholder="92 300 1234567"
+            title="enter your phone number"
+          />
+        </div>
+        <br />
+        <div>
+          <input type="submit" value="save" title="click this button to save" />
+        </div>
+      </form>
+
+      <table border="1px" cellspacing="0" cellpadding="5px">
+        <caption>
+          <h1>The failures</h1>
+        </caption>
+        <thead>
+          <tr>
+            <th>Student Name</th>
+            <th>Father Name</th>
+            <th>Cell no</th>
+            <th>CNIC</th>
+            <th>Address</th>
+            <th colspan="2">profile link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Muhammad Usama</td>
+            <td>Mehfoo ul haq</td>
+            <td>03226997630</td>
+            <td>3530264996103</td>
+            <td>Okara</td>
+            <td><a href="usama.com">Usama.com</a></td>
+            <td><button>save</button></td>
+          </tr>
+          <tr>
+            <td>Saood Rana</td>
+            <td>Attique rehman</td>
+            <td>03157176110</td>
+            <td>3530264996103</td>
+            <td>GT road</td>
+            <td><a href="usama.com">Saood.com</a></td>
+            <td><button>save</button></td>
+          </tr>
+          <tr>
+            <td>Namabardar</td>
+            <td>Muhammad ija</td>
+            <td>03024578615</td>
+            <td>3530264996103</td>
+            <td>village</td>
+            <td><a href="usama.com">Nambardar.com</a></td>
+            <td><button>save</button></td>
+          </tr>
+          <tr>
+            <td>Muhammad Ahmad</td>
+            <td>abrar ahmad</td>
+            <td>03054875954</td>
+            <td>3530264996103</td>
+            <td>Depalpur</td>
+            <td><a href="Ahmad.com">Ahmad.com</a></td>
+            <td><button>save</button></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td style="text-align: center" colspan="7">
+              <h3><a href="result">CLick </a> to check pass students</h3>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+      <br />
+      <a href="index.html" target="_top"> student</a>
+    </center>
+
+    <div style="margin-bottom: 500px"></div>
+  </body>
+</html>

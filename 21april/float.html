@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Float</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body{
+          background-color: #f4f4f4;
+
+      }
+      .container {
+        color: #fff;
+        width: 90vw;
+        box-sizing: border-box;
+        margin: 120px auto;
+
+      }
+      .items{
+          background-color: orchid;
+          width: 47%;
+          float: left;
+          box-sizing: border-box;
+          border: 2px dotted red;
+      }
+      #books{
+          background-color: orange;
+          float:right;
+      }
+      #pens{
+          width: 100%;
+            background-color: peru;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="books" class="items">
+        <h1>books</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum quo
+          magnam voluptate, repellendus vel sapiente.
+        </p>
+      </div>
+      <div id="staionary" class="items">
+        <h1>stationanray</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+          obcaecati magni velit! Eligendi, at. Atque?
+        </p>
+      </div>
+      <div id="pens" class="items">
+        <h1>pens</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Reprehenderit veritatis modi dolores culpa nam. Veritatis?
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

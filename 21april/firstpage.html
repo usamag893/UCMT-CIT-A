@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First web page</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 100%;
+      }
+      .banner {
+        width: 100%;
+        height: 70px;
+        background-color: red;
+        border-bottom: 2px solid #fff;
+      }
+      .banner h1{
+          font-size: 50px;
+          text-align: center;
+      }
+      #left_bar{
+          width: 15%;
+          height: 400px;
+          background-color: royalblue;
+            float: left;
+            border-right:  1px solid #fff;
+        }
+      #detail{
+          width: 59.7%;
+          height: 400px;
+          background-color: salmon;
+            float: left;
+            border-right:  1px solid #fff;
+        }
+        #right_bar{
+            width: 25%;
+            height: 400px;
+            background-color: slateblue;
+            float: left;
+            border-left:  1px solid #fff;
+        }
+        #fotter{
+            width: 100%;
+            height: 50px;
+            border: 1px solid royalblue;
+            background-color: sienna;
+            float: right;
+            border-top:  2px solid #fff;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="conatiner">
+      <div class="banner">
+        <h1>It's me</h1>
+      </div>
+      <div class="item" id="left_bar"></div>
+      <div class="item" id="detail"></div>
+      <div class="item" id="right_bar"></div>
+      
+    </div>
+    <div id="fotter"> copyright</div>
+  </body>
+</html>

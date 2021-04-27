@@ -1,0 +1,19 @@
+body{
+    background-color: #f4f4f4;
+    /* font-family: cursive ; */
+    font-family: 'Playfair Display', serif;
+    /* font-family: 'Amatic SC', cursive; */
+    /* font-family: 'Great Vibes', cursive; */
+}
+p{
+    color:#fff;
+    background-color: rgb(24, 22, 22);
+    line-height: 1.9em;
+    font-size: 32px;
+    /* font-family: 'Playfair Display', serif; */
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}

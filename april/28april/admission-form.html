@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admission Form</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: Georgia, "Times New Roman", Times, serif;
+    }
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      border: 1px solid red;
+      width: 50%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #f4f4f4;
+    }
+    .container div {
+      display: flex;
+      width: 97%;
+      align-items: center;
+      justify-content: center;
+        /* background-color: #f4f4f4; */
+    }
+    h1 {
+      text-align: center;
+      font-size: 5vw;
+        font-style: oblique;
+    }
+    label {
+      margin: 5px 0px;
+      flex-grow: 1;
+    }
+    input {
+      padding: 5px;
+      margin: 5px 10px;
+      flex-grow: 7;
+    }
+    button {
+      width: 200px;
+      border: 2px solid #ddd;
+      background-color: #fff;
+      padding: 3px;
+      box-shadow: 3px 5px 9px #000;
+    }
+    button:hover {
+      background-color: #000;
+      box-shadow: 3px 5px 9px rgb(122, 101, 101);
+      color: #fff;
+      cursor: pointer;
+    }
+    @media (max-width: 592px) {
+      .container {
+        width: 100%;
+      }
+      .container div {
+        flex-direction: column;
+      }
+      .container div input {
+        width: 90%;
+      }
+      .container div label {
+        font-size: 20px;
+      }
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h1>Student Enrollment Form</h1>
+      <div id="nme">
+        <label for="std_nme">Student Name</label>
+        <input type="text" id="std_nme" placeholder="Enter student name here" />
+      </div>
+      <div id="father_nme">
+        <label for="father_nme">Father Name</label>
+        <input
+          type="text"
+          id="father_nme"
+          placeholder="Enter Father name here"
+        />
+      </div>
+      <div id="Address">
+        <label for="Address">Address</label>
+        <input type="text" id="Address" placeholder="Enter Address here" />
+      </div>
+
+      <button>Submit</button>
+    </div>
+  </body>
+</html>

@@ -12,7 +12,7 @@
         padding: 0;
         /* box-sizing: border-box; */
       }
-      body{
+      body {
         background-color: #f4f4f4;
       }
       .container {
@@ -24,7 +24,7 @@
       }
       .left {
         display: flex;
-        width: 50%;
+        /* width: 50%; */
       }
       .left span {
         padding: 0px 10px;
@@ -45,7 +45,6 @@
       .left span:hover {
         background-color: #ff3571;
         border: 1px solid #ff3571;
-
       }
       .showcase {
         background-image: url(../18april/img/showcase.jpeg);
@@ -74,7 +73,7 @@
         padding-top: 200px;
         font-size: 40px;
       }
-      footer{
+      footer {
         width: 100%;
         height: 40px;
         background-color: #ff6291;
@@ -83,16 +82,16 @@
         padding-top: 9px;
         color: #f4f4f4;
       }
-      @media (max-width: 768px)
-      {
+      @media (max-width: 500px) {
+        .container {
+          flex-direction: column;
+          /* display: block;
+           */
+           align-items: center;
+           justify-content: center;
+        }
         .left span{
           font-size: 20px;
-        }
-      }
-      @media (max-width: 588px)
-      {
-        .left span{
-          font-size: 15px;
         }
       }
     </style>
@@ -123,7 +122,7 @@
       </div>
     </div>
     <footer>
-      <h3> &copy;Copyright Muhammad Usama Apr 2021 </h3>
+      <h3>&copy;Copyright Muhammad Usama Apr 2021</h3>
     </footer>
     <!-- <div style="margin-bottom: 500px"></div> -->
   </body>

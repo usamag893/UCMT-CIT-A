@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex test</title>
+    <style>
+        body{
+            padding: 20px;
+
+        }
+        .conatiner{
+            display: flex;
+            flex-direction: column;
+        
+        }
+        .box1{
+            background-color: rgb(231, 157, 18);
+            height: 40px;
+
+        }
+        .box2{
+            display: flex;
+            height: 40px;
+            /* border: 2px solid purple; */
+        }
+        #item1{
+            background-color: rgb(196, 201, 128);
+            flex-grow: 1;
+            border: 2px solid rgb(180, 23, 180);
+            text-align: center;
+        }
+        #item2{
+            background-color: rgb(196, 201, 128);
+            flex-grow: 1;
+            border: 2px solid  rgb(180, 23, 180);
+            text-align: center;
+
+        }
+        #item3{
+            background-color: rgb(196, 201, 128);
+            border: 2px solid  rgb(180, 23, 180);
+            text-align: center;
+
+            flex-grow: 1;
+
+        }
+        .box3{
+            background-color: rgba(123, 200, 230, 0.733);
+            height: 40px;
+
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="box1"></div>
+
+        <div class="box2">
+            <div id="item1">A</div>
+            <div id="item2">B</div>
+            <div id="item3">C</div>
+        </div>
+
+        <div class="box3"></div>
+    </div>
+</body>
+</html>

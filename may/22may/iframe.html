@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=div, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <a href="parallex.html" target="myframe">My Personal Pics</a>
+      <iframe
+        name="myframe"
+        src=""
+        frameborder="1"
+        width="800px"
+        height="350px"
+      ></iframe>
+      <iframe
+        src=""
+        srcdoc="<h3> these are my favourite pics </h3>"
+        frameborder="0"
+      ></iframe>
+      <object data="hit.mp3" type="audio/mp3" width="300px"></object>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+       meter{
+           width: 40%;
+           height: 60px;
+            /* border: 1px solid blue; */
+            
+        
+        }
+        /* /meter::-webkit-meter-optimum-value {
+    background: red; 
+} */
+        meter::-webkit-meter-optimum-value {
+      box-shadow: 0 5px 5px -5px #999 inset;
+      background-image: linear-gradient(
+        90deg, 
+        #2e8b00 5%, 
+        #ffe100 5%,
+        #ff0000 15%,
+        #ff4800 15%,
+        #2600ff 55%,
+        #ff00cc 55%,
+        #420035 95%,
+        #e100ff 95%,
+        #007bff 100%
+      );
+      background-size: 100% 100%;
+    }
+   </style>
+</head>
+<body>
+    
+    <div>
+        <meter value="98" min="0" max="100" low="20" high="99"></meter>
+    </div>
+</body>
+</html>
